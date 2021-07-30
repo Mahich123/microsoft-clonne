@@ -1,3 +1,6 @@
+
+<a href="https://microsoft-clonne.netlify.app/">LIVE PREVIEW</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
