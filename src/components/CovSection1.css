@@ -1,0 +1,15 @@
+.icons {
+    background-color: black;
+    padding: 1rem;
+    color: #fff;
+    fill: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para {
+    font-size: .8em;
+    font-style: italic;
+    color: gray;
+}

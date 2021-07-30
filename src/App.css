@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+}
+.logo {
+    width: 180px;
+}
+.game {
+    background-color: #444444;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cov {
+    background-color: #EEEEEE;
+}
+.team {
+    background-color: #444444;
+}
+.hero {
+    background: center/cover;
+}
+.covid {
+    height: 14rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cov2 {
+    font-size: 16px;
+    line-height: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ceo {
+    background-color: #B2B1B9;
 }
-
-.App-link {
-  color: #61dafb;
+.ceo:hover {
+    border: 2px solid #595260;
+    transition: all 200ms ease-in-out;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link {
+    list-style: disc;
+    color: #0274A5;
+}
+.link li:hover {
+    color:gray
+}
+@media only screen and (min-width: 900px) {
+    .link {
+        margin: 0 0 0 20rem;
+    }
+    .Come{
+        margin: 0 0 0 12rem;
+    }
+    .some {
+        display:  grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 1rem 0 0 97px;
+    }
+    .text {
+        margin-right: 1rem;
+    }
+    .tx {
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    .cov2 {
+        margin: 7rem;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 1rem;
+    }
+    .ttx {
+        margin-left: 6rem;
+    }
+    .somes {
+        display:  grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .icons:hover {
+        background-color: #0274A5;
+    }
+    .ico:hover {
+       color: #0274A5;
+    }
+    .gr {
+        display: grid;
+        
+    }
+    .img {
+        width: 16rem;
+    }
+    .head {
+        margin-left: 0;
+        padding-left: 9px;
+       
+    }
+    .covid {
+        height: 23rem;
+    }
 }
